@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+body{
+    background-color: #060936;
+}
+.container {
+    width: 952px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+  
+    display:flex;
+    margin:150px auto;
+    width:900px;
+    height:400px;
+    
+}
+
+.card{
+    background-color:#11154e;
+    border-radius:14px;
+    width:23%;
+    
+}
+
+.card .card_1{
+   
+    background-color: #7700ff;
+    padding-left:28px;
+    width:100%;
+    height:70%;
+    border-radius:13px 13px;
+}
+.card_1 p{
+    margin-top:32px;
+    font-size:12px;
+    color:#fefefe;
+   
+    font-weight:300;
+}
+.card_1 h1{
+    font-size:30px;
+    font-weight:400;
+    color:white;
+}
+.card_1 img{
+    width:70px;
+    border:3px solid white;
+    border-radius:70%;
+    margin-top:35px;
+}
+.card_2{
+    width:100%;
+    height:35%;
+    padding-top:15px;
+    padding-left:28px;
+}
+.card_2 p{
+    color:#8dacec;
+    font-size:12px;
+    font-weight:300;
+    padding-bottom:15px;
+    font-weight:500;
+}
+
+
+
+
+
+
+.boxcard{
+   
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:72%;
+    display:flex;
+}
+.boxcard .card_2{
+    background-color: peachpuff;
+    border-radius:15px;
+    width:30%;
+    height:45%;
+    
+    margin-bottom:30px;
+
+}
+
+
+
+
+.boxcard .card_3{
+    width:30%;
+    height:45%;
+    border-radius:15px;
+    margin-bottom:30px;
+    justify-content: space-between;
+    background-color: #03b6e7;
+   
+}
+
+
+.boxcard .card_4 {
+    width:30%;
+    height:45%;
+    border-radius:15px;
+    margin-bottom:30px;
+    background-color: #fa3e76;
+   
+}
+
+
+.boxcard .card_5 {
+    width:30%;
+    height:45%;
+    background-color: #00ff84;
+    border-radius:15px;
+    margin-bottom:30px;
+}
+
+.boxcard .card_6{
+    width:30%;
+   
+    border-radius:15px;
+    height:45%;
+    background-color: #9000ff;
+    margin-bottom:30px;
+}
+
+
+.boxcard .card_7{
+    width:30%;
+    height:45%;
+    background-color: #f2d30a;
+    border-radius:15px;
+    margin-bottom:30px;
+}
+
+
+.first_card{
+    height:20%;
+    text-align:right;
+    margin-right:20px;
+}
+
+
+.mentor{
+    width:100%;
+    height:80%;
+   
+    margin-top:10px;
+    color:white;
+    padding-left:28px;
+    background-color:#11154e;
+    padding-top:5px;
+    border-radius: 0 0 13px 13px;
+    
+    padding-right:28px;
+    border-radius:15px;
+}
+
+
+.mentor p{
+    font-size:12px;
+    display:inline-block;
+    padding-bottom:15px;
+}
+
+.mentor h1{
+    font-size:35px;
+    font-weight:400;
+}
+.mentor h3{
+    font-size:12px;
+    margin-top:5px;
+    color:#ddd;
+    font-weight:300;
+}
+
